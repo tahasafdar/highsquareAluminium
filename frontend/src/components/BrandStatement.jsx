@@ -1,5 +1,6 @@
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { WindowFrameGraphic, MeasurementGraphic } from "./Graphics";
 
 const marqueeText = "PRECISION \u00B7 DURABILITY \u00B7 DESIGN EXCELLENCE \u00B7 MODERN LIVING \u00B7 PREMIUM ALUMINIUM \u00B7 ";
 
@@ -79,6 +80,10 @@ export default function BrandStatement() {
         <div className="absolute top-12 left-12 w-20 h-20 border-t border-l border-[#D4AF37]/20" />
         <div className="absolute bottom-12 right-12 w-20 h-20 border-b border-r border-[#D4AF37]/20" />
       </motion.div>
+
+      {/* Decorative window frame graphic */}
+      <WindowFrameGraphic className="absolute -left-16 top-1/2 -translate-y-1/2 w-48 h-64 opacity-30 hidden lg:block" />
+      <MeasurementGraphic className="absolute bottom-20 right-8 w-48 hidden lg:block" />
     </section>
   );
 }

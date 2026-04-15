@@ -11,6 +11,7 @@ import ProjectsGallery from "../components/ProjectsGallery";
 import CustomSolutions from "../components/CustomSolutions";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 function PageLoader() {
   return (
@@ -120,6 +121,7 @@ export default function HomePage() {
           <CustomSolutions />
           <ContactSection />
           <Footer />
+          <WhatsAppButton />
         </motion.div>
       )}
     </div>

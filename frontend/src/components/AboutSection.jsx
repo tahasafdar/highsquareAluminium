@@ -1,5 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
+import { AluminiumProfileGraphic } from "./Graphics";
 
 const ABOUT_IMG = "https://images.unsplash.com/photo-1765766601432-edcdc9ae017d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBob21lJTIwaW50ZXJpb3IlMjBnbGFzcyUyMGRvb3IlMjBzbGlkaW5nfGVufDB8fHx8MTc3NjIzMzUzN3ww&ixlib=rb-4.1.0&q=85";
 
@@ -45,8 +46,10 @@ export default function AboutSection() {
       id="about"
       ref={ref}
       data-testid="about-section"
-      className="py-24 lg:py-32 bg-[#0A0A0A]"
+      className="py-24 lg:py-32 bg-[#0A0A0A] relative overflow-hidden"
     >
+      {/* Decorative aluminium profile graphic */}
+      <AluminiumProfileGraphic className="absolute -right-10 top-1/2 -translate-y-1/2 w-56 h-56 opacity-20 hidden lg:block" />
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image with mask reveal */}

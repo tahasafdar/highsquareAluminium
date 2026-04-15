@@ -132,8 +132,7 @@ export default function ContactSection() {
                   label: "Phone",
                   content: (
                     <>
-                      <p className="text-white">+91 731 XXX XXXX</p>
-                      <p className="text-white">+91 7272 XXX XXX</p>
+                      <p className="text-white">+91 98273 33552</p>
                     </>
                   ),
                 },
