@@ -12,6 +12,7 @@ import CustomSolutions from "../components/CustomSolutions";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
+import OurProcess from "../components/OurProcess";
 
 function PageLoader() {
   return (
@@ -117,6 +118,7 @@ export default function HomePage() {
           <ServicesSection />
           <ProductShowcase />
           <WhyChooseUs />
+          <OurProcess />
           <ProjectsGallery />
           <CustomSolutions />
           <ContactSection />
