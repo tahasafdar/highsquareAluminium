@@ -5,7 +5,8 @@ import HomePage from "@/pages/HomePage";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* basename={process.env.PUBLIC_URL} -- uncomment this when deploying to GitHub Pages with a homepage set in package.json */}
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>

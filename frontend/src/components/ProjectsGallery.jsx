@@ -2,40 +2,45 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { X, Expand } from "lucide-react";
 
+// =====================================================
+// PROJECT IMAGES - Replace with your own images
+// Place your images in: public/images/projects/
+// Filenames: project-1.jpg, project-2.jpg, etc.
+// =====================================================
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1655019545925-ddad6147d575?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmUlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwbmlnaHQlMjBkYXJrJTIwbHV4dXJ5fGVufDB8fHx8MTc3NjIzMzU0Mnww&ixlib=rb-4.1.0&q=85",
-    title: "Luxe Residences",
-    category: "Residential",
+    image: "/images/projects/project-1.jpg",
+    title: "Commercial Complex",
+    category: "Commercial",
     height: "h-80",
   },
   {
-    image: "https://images.unsplash.com/photo-1644489263595-6f5730ce3144?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhbHVtaW5pdW0lMjB3aW5kb3dzJTIwYXJjaGl0ZWN0dXJlJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzc2MjMzNTMxfDA&ixlib=rb-4.1.0&q=85",
-    title: "Skyline Tower",
-    category: "Commercial",
+    image: "/images/projects/project-2.jpg",
+    title: "Hakimi Villa",
+    category: "Residential",
     height: "h-96",
   },
   {
-    image: "https://images.unsplash.com/photo-1621176302222-01cb014875c7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBhbHVtaW5pdW0lMjB3aW5kb3dzJTIwYXJjaGl0ZWN0dXJlJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzc2MjMzNTMxfDA&ixlib=rb-4.1.0&q=85",
-    title: "Vista Apartments",
-    category: "Residential",
+    image: "/images/projects/project-3.jpg",
+    title: "Bhagwati Palace",
+    category: "Commercial",
     height: "h-72",
   },
   {
-    image: "https://images.unsplash.com/photo-1743051883652-7390ec9337f3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBtb2Rlcm4lMjBob21lJTIwaW50ZXJpb3IlMjBnbGFzcyUyMGRvb3IlMjBzbGlkaW5nfGVufDB8fHx8MTc3NjIzMzUzN3ww&ixlib=rb-4.1.0&q=85",
-    title: "The Grand Suite",
-    category: "Luxury",
+    image: "/images/projects/project-4.jpg",
+    title: "51 Crystals",
+    category: "Residential",
     height: "h-96",
   },
   {
-    image: "https://images.unsplash.com/photo-1689540872073-56f6ebe202cc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmUlMjBidWlsZGluZyUyMGV4dGVyaW9yJTIwbmlnaHQlMjBkYXJrJTIwbHV4dXJ5fGVufDB8fHx8MTc3NjIzMzU0Mnww&ixlib=rb-4.1.0&q=85",
-    title: "Apex Corporate",
-    category: "Commercial",
+    image: "/images/projects/project-5.jpg",
+    title: "Heritage Residence",
+    category: "Luxury",
     height: "h-80",
   },
   {
-    image: "https://images.pexels.com/photos/9538574/pexels-photo-9538574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "Urban Living",
+    image: "/images/projects/project-6.jpg",
+    title: "Premium Villa",
     category: "Residential",
     height: "h-72",
   },

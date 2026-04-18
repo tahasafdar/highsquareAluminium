@@ -2,20 +2,24 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
 
+// =====================================================
+// PRODUCT IMAGES - Replace with your own images
+// Place your images in: public/images/products/
+// =====================================================
 const categories = [
   {
     name: "Windows",
-    image: "https://images.unsplash.com/photo-1657978837711-7257a8357877?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBhbHVtaW5pdW0lMjB3aW5kb3dzJTIwYXJjaGl0ZWN0dXJlJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzc2MjMzNTMxfDA&ixlib=rb-4.1.0&q=85",
+    image: "/images/products/windows.jpg",
     desc: "Sliding, casement, and domal windows crafted with precision aluminium profiles for lasting performance.",
   },
   {
     name: "Doors",
-    image: "https://images.unsplash.com/photo-1773579089983-50348cc9abd0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBtb2Rlcm4lMjBob21lJTIwaW50ZXJpb3IlMjBnbGFzcyUyMGRvb3IlMjBzbGlkaW5nfGVufDB8fHx8MTc3NjIzMzUzN3ww&ixlib=rb-4.1.0&q=85",
+    image: "/images/products/doors.jpg",
     desc: "Premium aluminium doors designed for durability, security, and architectural elegance.",
   },
   {
     name: "Partitions",
-    image: "https://images.unsplash.com/photo-1770993151375-0dee97eda931?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBnbGFzcyUyMHBhcnRpdGlvbnxlbnwwfHx8fDE3NzYyMzMzMjF8MA&ixlib=rb-4.1.0&q=85",
+    image: "/images/products/partitions.jpg",
     desc: "Glass partitions and aluminium frameworks creating sophisticated spatial solutions.",
   },
 ];
