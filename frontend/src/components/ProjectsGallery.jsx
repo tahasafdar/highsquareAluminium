@@ -9,37 +9,37 @@ import { X, Expand } from "lucide-react";
 // =====================================================
 const projects = [
   {
-    image: "/images/projects/project-1.jpg",
+    image: process.env.PUBLIC_URL + "/images/projects/project-1.jpg",
     title: "Commercial Complex",
     category: "Commercial",
     height: "h-80",
   },
   {
-    image: "/images/projects/project-2.jpg",
+    image: process.env.PUBLIC_URL + "/images/projects/project-2.jpg",
     title: "Hakimi Villa",
     category: "Residential",
     height: "h-96",
   },
   {
-    image: "/images/projects/project-3.jpg",
+    image: process.env.PUBLIC_URL + "/images/projects/project-3.jpg",
     title: "Bhagwati Palace",
     category: "Commercial",
     height: "h-72",
   },
   {
-    image: "/images/projects/project-4.jpg",
+    image: process.env.PUBLIC_URL + "/images/projects/project-4.jpg",
     title: "51 Crystals",
     category: "Residential",
     height: "h-96",
   },
   {
-    image: "/images/projects/project-5.jpg",
+    image: process.env.PUBLIC_URL + "/images/projects/project-5.jpg",
     title: "Heritage Residence",
     category: "Luxury",
     height: "h-80",
   },
   {
-    image: "/images/projects/project-6.jpg",
+    image: process.env.PUBLIC_URL + "/images/projects/project-6.jpg",
     title: "Premium Villa",
     category: "Residential",
     height: "h-72",
