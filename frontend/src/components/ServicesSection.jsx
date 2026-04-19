@@ -44,19 +44,19 @@ const services = [
     icon: PanelTop,
     title: "Vertical Sliding Systems",
     desc: "Classic up-and-down sliding designs blending timeless aesthetics with smooth modern functionality.",
-    num: "01",
+    num: "07",
   },
   {
     icon: Grid3x3,
     title: "Slim Partition Systems",
     desc: "Minimal-profile partitions creating elegant spaces with maximum light and refined openness.",
-    num: "02",
+    num: "08",
   },
   {
     icon: Layers,
     title: "Architectural Aluminium Solutions",
     desc: "Custom-crafted aluminium innovations tailored to elevate design, durability, and functional excellence.",
-    num: "03",
+    num: "09",
   }
 
 ];
