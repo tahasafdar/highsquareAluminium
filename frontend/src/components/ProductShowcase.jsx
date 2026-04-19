@@ -9,17 +9,17 @@ import { ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
 const categories = [
   {
     name: "Windows",
-    image: process.env.PUBLIC_URL + "/images/products/windows.jpg",
+    image: process.env.PUBLIC_URL + "/images/products/windows.jpeg",
     desc: "Sliding, casement, and domal windows crafted with precision aluminium profiles for lasting performance.",
   },
   {
     name: "Doors",
-    image: process.env.PUBLIC_URL + "/images/products/doors.jpg",
+    image: process.env.PUBLIC_URL + "/images/products/doors.jpeg",
     desc: "Premium aluminium doors designed for durability, security, and architectural elegance.",
   },
   {
     name: "Partitions",
-    image: process.env.PUBLIC_URL + "/images/products/partitions.jpg",
+    image: process.env.PUBLIC_URL + "/images/products/partitions.jpeg",
     desc: "Glass partitions and aluminium frameworks creating sophisticated spatial solutions.",
   },
 ];
